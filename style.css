@@ -1,3 +1,146 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    font-size:xx-large;
+    background-color: antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    margin: 50px;
+    font-size:xx-large;
+    text-align: justify;
+}
+
+header{
+    font-size: 150px;
+    text-align: center;
+    color:aliceblue;
+    border:solid;
+    border-color:aliceblue; 
+   margin-top: auto;
+   background: url('images/Úvod.JPG') center;
+   background-size: cover;
+   padding:20px;
+}
+
+div{
+    text-align: right; 
+    font-size: 50px;
+}
+
+#Bára{
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    margin: auto;
+    padding: auto;
+}
+
+#mujnadpis{
+    font-size: 300%;
+    padding: 0 20% 0 20%;
+    font-style: italic;
+    text-align: center;
+    color:black
+}
+
+#Budějce{
+    float: right;
+    border: 5px solid black;
+    border-radius: 50%;
+    width: 30%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    shape-outside: circle(50%);
+    position:relative;
+    top: 45px;
+    left: 20px;
+    overflow: auto;
+    margin: 20px;
+}
+
+.studiumamojezážitky{
+    clear: right; 
+    padding-top: 20px;
+}
+
+#Amsterdam{
+    border-radius: 50%;
+    width:30%;
+    position: relative;
+    left: 100px;
+}
+
+#Tchaj-wan{
+    border-radius: 50%;
+    width: 30%;
+    position: relative;
+    left: 100px;
+}
+
+#Kanada{
+    position: relative;
+    left: 100px;
+    border-radius: 50%;
+    width:30%;
+}
+
+table{
+    text-align: left;
+    margin: 50px;
+    position: relative;
+    left:500px;
+}
+
+td{
+    width: 50%;
+}
+
+#cestování{
+    float:left;
+    border-radius: 30%;
+    width:50%;
+    position: relative;
+    left:50px;
+}
+
+#geografie{
+    float:right;
+    border-radius: 30%;
+    width: 30%;
+    position: relative;
+    right:20px;
+}
+#letadlo{
+    float:center;
+    border-radius: 30%;
+    width: 30%;
+}
+
+#BeátaI{
+    float: right;
+    border-radius: 50%;
+    width: 40%; 
+}
+#BeátaII{
+    float: right;
+    border-radius: 50%;
+    width: 30%;
+    position: relative;
+    left: 80px;
+}
+footer{
+    position: absolute;
+    left: 500px;
+}
+
